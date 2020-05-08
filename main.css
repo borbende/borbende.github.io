@@ -1,53 +1,35 @@
 body{
-background-color: #999;
-color: white;
-margin: 0;
+background-color: yellow;
+color: blue;
+font-family: arial;
 }
 
-header{
-backgound-color: #999;
-color: white;
-margin: 0;
-padding: 15px 15px 15p 0px 15px;
+h1, h3, h6, p {
+color: red
 }
 
-header h1{
-margin: 0;
-display: inline-block;
+p {
+color: brown;
+padding: 20px 15px 10px 5px;
 }
 
-nav ul{
-margin: 0;
-display: inline-block;
-padding: 0 0 0 15px;
+.blue{
+color: blue;
+background-color: white;
 }
 
-nav ul li{
-background-color: black;
-color: white;
-list-style-type: none;
-display: inline-block;
-margin: 5px;
-padding: 5px 15px;
+#special{
+background-color: green;
 }
 
-nav ul li a{
-color: white;
+p:hover{
+background-color: red;
 }
 
-div.row{
-
+p::first-letter{
+color: black;
 }
 
-div.col{
-background-color: #333;
-
-float: left;
-margin: 1%;
-padding: 1%;
-width: 16%;
-}
-
-footer{
-clear:both;
+li{
+color: green;
 }
